@@ -1,0 +1,67 @@
+.counter-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .spline-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  
+button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(52, 137, 57);
+}
+
+h2 {
+    color: rgb(82, 255, 2); /* Sets the text color to red */
+    font-family: 'Arial', sans-serif; /* Sets the font to Arial, with sans-serif as a fallback */
+    font-size: 24px; /* Sets the font size to 24 pixels */
+    font-weight: bold; /* Makes the font bold */
+    text-align: center; /* Centers the text */
+    text-transform: uppercase; /* Transforms the text to uppercase */
+    letter-spacing: 2px; /* Adds 2 pixels of space between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow to the text */
+    margin: 20px 0; /* Adds 20 pixels of margin above and below the element */
+    padding: 10px; /* Adds 10 pixels of padding around the text */
+    border: 2px solid rgb(52, 137, 57); /* Adds a red border */
+    border-radius: 10px; /* Rounds the corners of the border */
+    background-color: rgba(255, 0, 0, 0.1); /* Adds a light red background color */
+    transition: all 0.3s ease; /* Adds a transition effect for any change */
+}
+
+h2:hover {
+    color: rgb(255, 255, 255); /* Changes the text color to white on hover */
+    background-color: rgb(95, 206, 83); /* Changes the background color to red on hover */
+    transform: scale(1.1); /* Scales up the element slightly on hover */
+}
